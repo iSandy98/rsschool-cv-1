@@ -43,6 +43,6 @@ _____
 * JavaScript (in process)
 ____
 ## Languages
-* Yakutian - native speaker.
+* Yakut - native speaker
 * Russian
 * English - A2(B1 in process)
