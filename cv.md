@@ -32,7 +32,7 @@ ____
 4. VS Code
 _____
 ## Code example
-> still in progress
+> This is CV its my first project
 _____
 ## Education
 
