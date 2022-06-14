@@ -5,55 +5,70 @@
     
     <title>CV</title>
     <link href="style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/9ad69d9e9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Roboto&display=swap" rel="stylesheet"> 
    
 </head>
 
 
 <body>
 
-<section class="Container1">
+<header class="Container1">
         
-                    <img src="\assets\Me.jpg" alt="ElanPhoto" class="Pic">
-                    <h3>My contact information:</h3>
-                                <div class="MyContact">
-                                    <p>Phone: +89248655018</p>
-                                    <p>E-mail: Sandaarap98@gmail.com</p>  
-                                    <p>Telegram: @sandaarapostnikova</p>
-                                    <p><a href="https://github.com/iSandy98" target="_blank">[GitHub]</a></p>
-                                    <p><a href="https://vk.com/isandyy" target="_blank">[VK]</a></p>
-                                </div>
+ <img src="/assets/Me.jpg" alt="MyPhoto" class="Pic">
+
+    <div class="Info-1"><h3>CONTACT ME</h3></div>
+         <hr>
+                   
+                       
+    <div class="MyContact">
+       <ul>
+            <li><a href="#"><i class="fa-solid fa-at"></i></a>&nbsp; Sandaarap98@gmail.com</li>  
+            <li><a href="#"><i class="fa-brands fa-telegram"></i></a>&nbsp; @sandaarapostnikova</li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a><a href="https://github.com/iSandy98" target="_blank">&nbsp; GitHub</a></li>
+            <li><a href="#"><i class="fa-brands fa-vk"></i></a><a href="https://vk.com/isandyy" target="_blank">&nbsp; VK</a></li>
+       </ul>
+    </div>
 
 
+                        
+                        <h3>MY SKILLS</h3>
                         <hr>
-                        <h3>My skills</h3>
-                        <ol>   <li>HTML Basics</li>
+                <div class="skills">   
+                        <ul>   
+                                <li>HTML Basics</li>
                                 <li>Git, GitHub</li>
                                 <li>JavaScript Basics</li>
                                 <li>VS Code</li>
-                        </ol>
-
-                        <hr>
+                        </ul>
+                </div> 
+                         
+                      
                         
-</section>
+</header>
 
-<section class="Container2">
+<main class="Container2">
    
    
-                                <h1> Sandaara Postnikova</h1>
-                            <h5>Student of RS School</h5>
+                    <h1> Sandaara Postnikova</h1>
+                        <h5>Student of RS School</h5>
                                 
-                            <hr>
+                         <hr>
 
                             
 
-                            <h3>About Me</h3>
-
+                    <div class="Main">       
+                        <h3>ABOUT ME</h3> </div> 
+                        <div class="Info-2">
                             <p>I am a second-year student of NEFU and I am a beginner for IT, but I have a great desire to learn and develop in the field of programming, because it is interesting.</p>
                             <p>That's why I signed up for the JavaScript course.</p>  
                             <p>My goal is to gain knowledge in the field of front-end development.</p>
                             <hr>
-
-                            <h3>My strengths:</h3>
+                        </div>
+                          <div class="Main">  <h3>MY STRENGTHS</h3> </div>
+                        <div class="Info-2">
                             <ul>
                                     <li>hard-working</li>
                                     <li>team playing</li>
@@ -62,35 +77,72 @@
                                     <li>learner</li>
                                     <li>still in progress...</li>
                             </ul>
+                        </div>
                             <hr>
 
                             
 
-                            <h3>Code example</h3>
-                            <h5>This is CV its my first project</h5>
+        <div class="Main"> <h3>CODE EXAMPLE</h3> </div>
+    <div class="Code">
+        <pre>
+            <code>
+        .form-group textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #ccc;
+        color: black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+        }
+            </code>
+        </pre>
+    </div>
 
                         <hr>
 
 
-                            <h3>Education</h3>
+        <div class="Main">   <h3>EDUCATION</h3> </div>
 
-                            <ul>    
-                                    <li>North-Eastern Federal University</li>
-                            
-                                    <li>Medical College of Sakha Republic(Yakutia)</li>
-                                    
-                                    <li>RS-SCHOOL: JavaScript (in process)</li>
-                            </ul>
+    <div class="Info-2">
 
-                        <hr>
+        <ul>    
+                <li>North-Eastern Federal University</li>
+        
+                <li>Medical College of Sakha Republic(Yakutia)</li>
+                
+                <li>RS-SCHOOL: JavaScript (in process)</li>
+        </ul>
+    </div>
+         <hr>
 
-                            <h3>Languages</h3>
-                            <ul>
-                                <li>Yakut - native speaker</li>
-                                <li>Russian</li>
-                                <li>English - A2(B1 in process)</li>
-                            </ul>
-    
-</section>            
+            <div class="Main"> <h3>LANGUAGES</h3> </div>
+        <div class="Info-2">
+            <ul>
+                <li>Yakut - native speaker</li>
+                <li>Russian</li>
+                <li>English - A2(B1 in process)</li>
+            </ul>
+        </div>
+
+<footer>
+
+    <table>
+        <tr>
+           <td><a href="https://rs.school/js/" target="_blank"><img src="/assets/rschool.svg" alt="rss" class="rss"> </a> </td>
+           
+           <td class="link"><a href="https://github.com/iSandy98" target="_blank"><i class="fa-brands fa-github-alt"></i></a></td> 
+           
+        </tr>
+    </table>
+           <p>2022</p>
+
+</footer>
+        
+</main>            
+
+
 </body>
 </html>
